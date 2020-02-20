@@ -5,16 +5,16 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UploadListComponent } from './uploads/upload-list/upload-list.component';
-import { UploadFormComponent } from './uploads/upload-form/upload-form.component';
+import { AlbumsComponent } from './albums/albums.component';
+import { PhotosComponent } from './photos/photos.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UploadListComponent,
-    UploadFormComponent
+    AlbumsComponent,
+    PhotosComponent,
   ],
   imports: [
     BrowserModule,

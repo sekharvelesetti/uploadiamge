@@ -23,20 +23,21 @@ export class AppComponent {
  
   
 
-  getposts(){
-     this.posts= this.http.get('https://jsonplaceholder.typicode.com/posts');
-  }
-  onfileselected(event:any){
-    this.selectedFile=<File>event.target.files[0];
-  }
-upload(){
-  const fd =new FormData();
-  fd.append('image',this.selectedFile,this.selectedFile.name)
-this.http.post('https://jsonplaceholder.typicode.com/photos',fd).subscribe(res=>{
-  console.log(res);
-})
-}
+//   getposts(){
+//      this.posts= this.http.get('https://jsonplaceholder.typicode.com/posts');
+//   }
+//   onfileselected(event:any){
+//     this.selectedFile=<File>event.target.files[0];
+//   }
+// upload(){
+//   const fd =new FormData();
+//   fd.append('image',this.selectedFile,this.selectedFile.name)
+// this.http.post('https://jsonplaceholder.typicode.com/photos',fd).subscribe(res=>{
+//   console.log(res);
+// })
+// }
   
+
 }
 
   
