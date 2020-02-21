@@ -16,7 +16,10 @@ export class AppComponent {
   posts:any;
   items=[]
   selectedFile:File=null;
- 
+ postdata={
+   title:"mycontent"
+ }
+ url:'https://jsonplaceholder.typicode.com/posts'
   constructor(private http:HttpClient) {
     
   }
@@ -36,6 +39,7 @@ export class AppComponent {
 //   console.log(res);
 // })
 // }
+  
   
 
 }

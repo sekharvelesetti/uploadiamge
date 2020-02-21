@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { PhotosComponent } from './photos/photos.component';
+import { PostComponent } from './post/post.component';
 
 
 
@@ -15,15 +16,13 @@ import { PhotosComponent } from './photos/photos.component';
     AppComponent,
     AlbumsComponent,
     PhotosComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    
-    
-  
   ],
   providers: [],
   bootstrap: [AppComponent]
